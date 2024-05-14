@@ -149,10 +149,132 @@
     align-items: center;
     gap: 20px;
     border-right: 5px solid red;
-    padding: 10px;
+    padding-right: 10px;
 }
 .profile-container{
     display: flex;
     align-items: center;
     gap: 70px;
+}
+.call-icon{
+    width: 110px;
+}
+.call-title{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.call-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.call-description{
+   
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    
+}
+.call-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px 20px;
+    background-color: white;
+    border: 0px;
+}
+.phone-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 25px;
+    width: 80%;
+    margin:0 auto;
+    background-color: red;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+.blog-section{
+    background-color: rgb(81, 79, 79);
+    width: 80%;
+    margin: auto;
+}
+.blog-title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cards{
+    
+    
+   display: flex;
+   justify-content: space-around;
+   gap: 30px;
+   padding: 40px;
+}
+.card-one{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+/* footer */
+.footer-container{
+    background-color: #000;
+    padding-top: 130px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 150px;
+    margin-top: 70px;
+}
+.foot-desc{
+    margin-top: 30px;
+}
+.foot-title{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.footer-desc{
+    font-size: 16px;
+    margin-bottom: 7px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.hori{
+    border-bottom: 2px solid white;
+    padding: 4px;
+}
+footer{
+    background: #000;
+}
+.copyright{
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
 }
